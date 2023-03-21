@@ -1,9 +1,11 @@
-## About me
+## 0.4: New note diagram
 
-Hi, I'm Mona. You might recognize me as GitHub's mascot.
+This is my diagram:
 
-| Rank | Languages |
-|-----:|-----------|
-|     1| Javascript|
-|     2| Python    |
-|     3| SQL       |
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
